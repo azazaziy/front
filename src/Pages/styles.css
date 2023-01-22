@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(102, 102, 102);
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+.form {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(142, 114, 63);
+}
+.form__buttons{
+    text-align: center;
+    width: 100%;
+}
+.form__button_l{
+    color: rgb(228, 155, 93);
+    background-color: rgb(142, 114, 63);
+}
+.form__button_r{
+    background-color: rgb(228, 155, 93);
+    color: rgb(142, 114, 63);
+}
+.input{
+    background-color: rgb(77, 69, 62);
+    border-color: rgb(228, 155, 93);
+}
